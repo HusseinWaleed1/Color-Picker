@@ -4,7 +4,7 @@ from PIL import Image, ImageTk, ImageDraw
 import math
 import random
 
-
+# random not important
 def update_scale(event):
     red_var.set(int(red_var.get()))
     green_var.set(int(green_var.get()))
@@ -194,3 +194,4 @@ random_color_btn.place(x=150, y=500)
 
 random_color()
 app.mainloop()
+
